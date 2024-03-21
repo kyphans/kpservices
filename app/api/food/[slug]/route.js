@@ -70,6 +70,7 @@ export async function GET(request, response) {
     }
     return Response.json({ data: rows });
   } catch (error) {
-    return Response.json({ data: error }); // Returning error message
+    console.error(error)
+    return Response.json({ data: error.message }); // Returning error message
   }
 }
