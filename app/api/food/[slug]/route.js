@@ -14,11 +14,6 @@ export async function GET(request, response) {
     'x-foody-client-language': 'vi',
     'x-foody-client-type': '1',
     'x-foody-client-version': '3.0.0',
-    Accept:
-      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'Accept-Encoding': 'gzip, deflate, br, zstd',
-    'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7,ko;q=0.6',
-    Connection: 'keep-alive',
     'User-Agent': 'PostmanRuntime/7.29.0'
   };
 
